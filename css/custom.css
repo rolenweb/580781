@@ -2,6 +2,14 @@
   font-family: "Open Sans Regular";
   src: local("Open Sans Regular"), url(../fonts/Open/OpenSans-Regular.ttf);
 }
+@font-face {
+  font-family: "Geometria-Medium";
+  src: local("Geometria-Medium"), url(../fonts/Geo/Geometria-Medium.otf);
+}
+@font-face {
+  font-family: "Geometria Regular";
+  src: local("Geometria Regular"), url(../fonts/Geo/Geometria.otf);
+}
 header {
   border-bottom: 1px solid #ccc;
 }
@@ -305,4 +313,27 @@ header table[name="sub-menu-xs"] td[name="link-bathroom"] div.top-menu-row ul.li
 }
 header table[name="sub-menu-xs"] td[name="link-bathroom"] div.top-menu-row ul.list-inline li a {
   color: #fff;
+}
+section[name="flat-slider-top"] {
+  background-color: #eee;
+}
+@media (min-width: 1200px) {
+  section[name="flat-slider-top"] div.container {
+    width: 900px;
+  }
+}
+section[name="flat-slider-top"] div[name="title-section"] {
+  font-family: "Geometria-Medium";
+  font-size: 50px;
+}
+section[name="flat-slider-top"] p[name="sub-title"] {
+  font-family: "Geometria Regular";
+  font-size: 18px;
+}
+section[name="flat-slider-top"] div[name="previe-slider"] {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
 }
