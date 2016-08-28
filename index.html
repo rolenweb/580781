@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Чистовой</title>
+      
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,13 +24,103 @@
   <body>
     <div class = "wrap">
       <header>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-2">LOGO</div>
-            <div class="col-sm-6">LINKS</div>
-            <div class="col-sm-2"><button>Сделать расчет</button></div>
-            <div class="col-sm-2">+7 499 647-54-12</div>
-          </div>
+        <div class="container">
+          <table class="table hidden-xs" name = "menu-sm">
+                <tr>
+                  <td name = "logo">
+                    <a href=""><img src="images/logo.png" alt="Чистовой" class="img-responsive center-block"></a>
+                  </td>
+                  <td colspan = "5" name = "top-link-flat">
+                    <div class="row">
+                      <div class="col-sm-12 top-menu-label">
+                        Дизайн для квартиры:
+                      </div>
+                    </div>
+                    <div class="row top-menu-row">
+                      <ul class="list-inline">
+                        <li class="top-menu-link"><a href="">Классический</a></li>
+                        <li class="top-menu-dot">-</li>
+                        <li class="top-menu-link"><a href="">Скандинавский</a></li>
+                        <li class="top-menu-dot">-</li>
+                        <li class="top-menu-link"><a href="">Модерн</a></li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td name = "bathroom">
+                    <div class="row">
+                      <div class="col-sm-12 top-menu-label">
+                        7 cтилей:
+                      </div>
+                    </div>
+                    <div class="row top-menu-row">
+                      <ul class="list-inline">
+                        <li class="top-menu-link"><a href="">Для ванной комнаты</a></li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td name = "calculate">
+                    <div class="row">
+                      <div class="col-lg-6" name = "btn-calculate">
+                        <img src="images/top_btn_calculate.png" class = "img-responsive center-block">    
+                      </div>
+                      <div class="col-lg-6 text-center" name = "phone">
+                        +7 499 647-54-15
+                      </div>
+                    </div>
+                    
+                    
+                  </td>
+                  
+                </tr>
+          </table>
+          <table class="table visible-xs-block" name = "menu-xs">
+            <tr>
+              <td name = "logo">
+                <a href=""><img src="images/logo.png" alt="Чистовой" class="img-responsive center-block"></a>
+              </td>
+              <td name = "calculate">
+                <a href=""><img src="images/top_btn_calculate.png" class = "img-responsive center-block"> </a>   
+              </td>
+              <td name = "btn-sub-menu">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+
+              </td>
+            </tr>
+          </table>
+          <table class="table" name = "sub-menu-xs">
+            <tr class="active">
+              <td colspan = "3" name = "link-flat">
+                <div class="row">
+                  <div class="col-xs-12 top-menu-label">
+                    Дизайн для квартиры:
+                  </div>
+                </div>
+                <div class="row top-menu-row">
+                  <ul class="list-inline">
+                    <li class="top-menu-link"><a href="">Классический</a></li>
+                    <li class="top-menu-dot">-</li>
+                    <li class="top-menu-link"><a href="">Скандинавский</a></li>
+                    <li class="top-menu-dot">-</li>
+                    <li class="top-menu-link"><a href="">Модерн</a></li>
+                  </ul>
+                </div>
+              </td>
+              <td name = "link-bathroom">
+                <div class="row">
+                  <div class="col-sm-12 top-menu-label">
+                    7 cтилей:
+                  </div>
+                  </div>
+                  <div class="row top-menu-row">
+                    <ul class="list-inline">
+                      <li class="top-menu-link"><a href="">Для ванной комнаты</a></li>
+                    </ul>
+                  </div>
+              </td>
+              
+            </tr>
+          </table>
+          
         </div>
       </header>
       <section name = "flat-slider-top">
@@ -368,5 +462,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

@@ -1,0 +1,210 @@
+@header-border-color: #ccc;
+@header-link-bathroom: #0fb1af;
+
+@font-face {
+	    font-family: "Open Sans Regular";
+	    src: local("Open Sans Regular"), 
+        url(../fonts/Open/OpenSans-Regular.ttf); 
+}
+
+
+.padding-left-0(){
+	padding-left: 0px;
+}
+.padding-right-0(){
+	padding-right: 0px;
+}
+.top-menu-label-font(){
+	font-family: "Open Sans Regular";
+	font-size: 12px;
+	@media (min-width: 768px) and (max-width: 999px) {
+		font-size: 9px;	
+		padding-right: 1px;
+		padding-left:11px;
+	}
+	@media (min-width: 1000px) {
+		font-size: 12px;	
+		padding-right: 1px;
+	}
+	@media (min-width: 1200px) {
+		font-size: 12px;
+		padding-right: 5px;	
+	}
+}
+
+
+.top-menu-font(){
+	font-family: "Open Sans Regular";
+	text-transform: uppercase;	
+	
+	@media (min-width: 768px) and (max-width: 999px) {
+		font-size: 9px;	
+		padding-right: 1px;
+		padding-left:1px;
+	}
+	@media (min-width: 1000px) {
+		font-size: 10px;	
+		padding-right: 1px;
+	}
+	@media (min-width: 1200px) {
+		font-size: 12px;
+		padding-right: 1px;	
+	}
+	@media (min-width: 1499px) {
+		font-size: 14px;
+		padding-right: 5px;	
+	}
+	
+}
+
+.top-phone(){
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+}
+
+header{
+	border-bottom: 1px solid @header-border-color;
+	table[name = "menu-sm"]{
+		margin-bottom: 0px;
+		td{
+			border-top: 0px solid #ddd;
+		}
+		td[name = "logo"]{
+			border-right: 1px solid @header-border-color;
+			padding-bottom: 20px;
+			padding-top: 25px;
+
+		}
+		td[name = "top-link-flat"]{
+			padding-top: 15px;
+			div.row{
+				div.top-menu-label{
+					.top-menu-label-font
+				}
+			}
+			div.top-menu-row{
+				margin-top: 5px;
+				ul.list-inline{
+					padding-left: 15px;
+					li{
+						.top-menu-font;
+						a{
+							color: #000;
+						}
+					}
+					li.top-menu-dot{
+								
+					}
+				}
+			}
+		}
+		td[name = "bathroom"]{
+			padding-top: 15px;
+			background-color: @header-link-bathroom;
+			color: #fff;
+			div.row{
+				div.top-menu-label{
+					.top-menu-label-font
+				}
+			}
+			div.top-menu-row{
+				margin-top: 5px;
+				ul.list-inline{
+					padding-left: 15px;
+					li{
+						.top-menu-font;
+						a{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		td[name = "calculate"]{
+			div.row{
+				div[name = "btn-calculate"]{
+					@media (max-width: 1200px) {
+						img{
+							max-width: 70%;	
+						}
+					}
+					
+				}
+				div[name = "phone"]{
+					.top-phone;
+					@media (min-width: 1200px) {
+						padding-top:20px;
+					}
+					
+				}	
+			}
+			
+		}
+	}
+	
+	table[name = "menu-xs"]{
+		td{
+			border-top: 0px solid #ddd;
+		}
+		margin-bottom: 0px;
+		td[name = "calculate"]{
+			a{
+				img{
+					max-width: 50%;	
+				}	
+			}
+		}
+		td[name = "btn-sub-menu"]{
+			cursor: pointer;
+		}
+	}
+
+	table[name = "sub-menu-xs"]{
+		display: none;
+		td{
+			border-top: 0px solid #ddd;
+		}
+		td[name = "link-flat"]{
+			div.top-menu-label{
+				.top-menu-label-font;
+			}
+			div.top-menu-row{
+				margin-top: 5px;
+				ul.list-inline{
+					padding-left: 15px;
+					li{
+						.top-menu-font;
+						a{
+							color: #000;
+						}
+					}
+					li.top-menu-dot{
+								
+					}
+				}
+			}
+		}
+		td[name = "link-bathroom"]{
+			background-color: @header-link-bathroom;
+			color: #fff;
+			div.row{
+				div.top-menu-label{
+					.top-menu-label-font
+				}
+			}
+			div.top-menu-row{
+				margin-top: 5px;
+				ul.list-inline{
+					padding-left: 15px;
+					li{
+						.top-menu-font;
+						a{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+}
