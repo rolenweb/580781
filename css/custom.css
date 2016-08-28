@@ -170,6 +170,8 @@ header table[name="menu-xs"] td[name="calculate"] a img {
   max-width: 50%;
 }
 header table[name="menu-xs"] td[name="btn-sub-menu"] {
+  padding-top: 3px;
+  color: #777;
   cursor: pointer;
 }
 header table[name="sub-menu-xs"] {
