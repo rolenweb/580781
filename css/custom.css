@@ -339,15 +339,19 @@ section[name="flat-slider-top"] div[name="preview-slider"] {
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
   position: absolute;
-  top: 60px;
+  top: 55px;
   left: 370px;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] {
   padding-left: 0px;
   padding-right: 0px;
 }
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="previe-image"] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 @media (min-width: 768px) {
   section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
