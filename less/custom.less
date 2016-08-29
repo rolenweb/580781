@@ -1,5 +1,6 @@
 @header-border-color: #ccc;
 @header-link-bathroom: #0fb1af;
+@slider-pult-color: #0fb1af;
 
 @font-face {
 	    font-family: "Open Sans Regular";
@@ -247,15 +248,31 @@ section[name = "flat-slider-top"]{
 		height: 370px;
 		div[name = "block-slider"]{
 			position: absolute;
-			top: 55px;
+			top: 20px;
 			left: 370px;
+			div[name = "block-image"]{
+				margin-top: 5px;
+			}
 			div[name = "big-image"]{
 				.padding-left-0;
 				.padding-right-0;
+				div[name = "pult-image"]{
+					padding-top: 10px;
+					i{
+						color: @slider-pult-color;
+					}
+				}
 			}
 			div[name = "previe-image"]{
 				.padding-left-0;
 				.padding-right-0;	
+			}
+			div[name = "title-image"]{
+				.padding-left-0;
+				.padding-right-0;
+				font-family: "Geometria Regular";
+				font-size: 18px;
+				text-decoration: underline;		
 			}
 			@media (min-width: 768px) {
 				div[name = "small-image-2"]{

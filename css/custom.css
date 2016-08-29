@@ -339,16 +339,32 @@ section[name="flat-slider-top"] div[name="preview-slider"] {
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
   position: absolute;
-  top: 55px;
+  top: 20px;
   left: 370px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="block-image"] {
+  margin-top: 5px;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] {
   padding-left: 0px;
   padding-right: 0px;
 }
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] div[name="pult-image"] {
+  padding-top: 10px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] div[name="pult-image"] i {
+  color: #0fb1af;
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="previe-image"] {
   padding-left: 0px;
   padding-right: 0px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="title-image"] {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: "Geometria Regular";
+  font-size: 18px;
+  text-decoration: underline;
 }
 @media (min-width: 768px) {
   section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
