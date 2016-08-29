@@ -1,0 +1,16 @@
+0f7ab1
+Больше ничего платить не надо!
+{
+	font-family: Geometria;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0f7ab1;
+}
+
+
+
+
+
+цвет обводки
+dcdcdc
+

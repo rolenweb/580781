@@ -11,7 +11,7 @@
   src: local("Geometria Regular"), url(../fonts/Geo/Geometria.otf);
 }
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #dcdcdc;
 }
 header table[name="menu-sm"] {
   margin-bottom: 0px;
@@ -20,7 +20,7 @@ header table[name="menu-sm"] td {
   border-top: 0px solid #ddd;
 }
 header table[name="menu-sm"] td[name="logo"] {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #dcdcdc;
   padding-bottom: 20px;
   padding-top: 25px;
 }
@@ -315,6 +315,7 @@ header table[name="sub-menu-xs"] td[name="link-bathroom"] div.top-menu-row ul.li
   color: #fff;
 }
 section[name="flat-slider-top"] {
+  background-image: url(../images/fon.png);
   background-color: #eee;
 }
 @media (min-width: 1200px) {
@@ -366,7 +367,7 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slide
   padding-top: 10px;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] div[name="pult-image"] i {
-  color: #0fb1af;
+  color: #0f7ab1;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="previe-image"] {
   padding-left: 0px;
@@ -456,6 +457,16 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-
     font-size: 24px;
   }
 }
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text1"] {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0f7ab1;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text1"] {
+    font-size: 12px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text2"] {
   font-size: 16px;
 }
@@ -472,12 +483,31 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-
     font-size: 12px;
   }
 }
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="arrow"] {
+  position: absolute;
+  left: 200px;
+  top: 360px;
+}
+@media (max-width: 767px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="arrow"] {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="arrow"] {
+    left: 150px;
+    top: 260px;
+  }
+}
 section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="pult-image"] {
   padding-top: 10px;
 }
 section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="pult-image"] i {
-  color: #0fb1af;
+  color: #0f7ab1;
 }
 section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="slider-info"] {
   background-color: #fff;
+}
+section[name="flat-slider-top"] div[name="block-icons"] {
+  margin-top: 50px;
 }

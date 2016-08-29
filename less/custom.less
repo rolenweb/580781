@@ -1,6 +1,6 @@
-@header-border-color: #ccc;
+@header-border-color: #dcdcdc;
 @header-link-bathroom: #0fb1af;
-@slider-pult-color: #0fb1af;
+@slider-pult-color: #0f7ab1;
 
 @font-face {
 	    font-family: "Open Sans Regular";
@@ -228,6 +228,7 @@ header{
 	}
 }
 section[name = "flat-slider-top"]{
+	background-image: url(../images/fon.png);
 	div.container{
 		.container-body;
 	}
@@ -308,7 +309,7 @@ section[name = "flat-slider-top"]{
 			width: 360px;
 			@media (max-width: 767px) {
 				display: none;
-			}
+			}	
 			@media (min-width: 768px) and (max-width: 992px) {
 				width: 260px;
 				left: 25px;
@@ -350,7 +351,12 @@ section[name = "flat-slider-top"]{
 				}
 			}
 			div[name = "text1"]{
-				
+				font-size: 16px;
+				font-weight: bold;
+				color: #0f7ab1;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 12px;
+				}
 			}
 			div[name = "text2"]{
 				font-size: 16px;
@@ -363,6 +369,18 @@ section[name = "flat-slider-top"]{
 				@media (min-width: 768px) and (max-width: 992px) {
 					font-size: 12px;
 				}
+			}
+		}
+		div[name = "arrow"]{
+			position: absolute;
+			left: 200px;
+			top: 360px;
+			@media (max-width: 767px) {
+				display: none;
+			}	
+			@media (min-width: 768px) and (max-width: 992px) {
+				left: 150px;
+				top: 260px;
 			}
 		}
 	}
@@ -378,5 +396,8 @@ section[name = "flat-slider-top"]{
 				background-color: #fff;
 			}
 		}
+	}
+	div[name = "block-icons"]{
+		margin-top: 50px;
 	}
 }
