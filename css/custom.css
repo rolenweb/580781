@@ -337,10 +337,23 @@ section[name="flat-slider-top"] div[name="preview-slider"] {
   width: 380px;
   height: 380px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] {
+    border-radius: 150px;
+    width: 280px;
+    height: 280px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
   position: absolute;
   top: 20px;
   left: 395px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
+    top: 15px;
+    left: 300px;
+  }
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="block-image"] {
   margin-top: 5px;
@@ -368,6 +381,16 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slide
 }
 @media (min-width: 768px) {
   section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
+    margin-top: 3px;
+  }
+}
+@media (min-width: 1000px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
+    margin-top: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
     margin-top: 10px;
   }
 }
@@ -378,25 +401,83 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-
   width: 360px;
   font-family: "Geometria Regular";
 }
+@media (max-width: 767px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] {
+    width: 260px;
+    left: 25px;
+    top: 10px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="n-days"] {
   font-size: 48px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="n-days"] {
+    font-size: 30px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text-days"] {
   font-size: 18px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text-days"] {
+    font-size: 14px;
+  }
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr {
   border-top: 3px solid #eee;
   width: 80%;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr[name="hr"] {
   border-top: 1px solid #000;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr[name="hr"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="price"] {
   font-size: 28px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="price"] {
+    font-size: 24px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text2"] {
   font-size: 16px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text2"] {
+    font-size: 12px;
+  }
+}
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text3"] {
   font-size: 16px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text3"] {
+    font-size: 12px;
+  }
+}
+section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="pult-image"] {
+  padding-top: 10px;
+}
+section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="pult-image"] i {
+  color: #0fb1af;
+}
+section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[name="slider-info"] {
+  background-color: #fff;
 }

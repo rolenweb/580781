@@ -246,10 +246,20 @@ section[name = "flat-slider-top"]{
 		border-radius: 200px;
 		width: 380px;
 		height: 380px;
+		
+		@media (min-width: 768px) and (max-width: 992px) {
+			border-radius: 150px;
+			width: 280px;
+			height: 280px;
+		}
 		div[name = "block-slider"]{
 			position: absolute;
 			top: 20px;
 			left: 395px;
+			@media (min-width: 768px) and (max-width: 992px) {
+				top: 15px;
+				left: 300px;
+			}
 			div[name = "block-image"]{
 				margin-top: 5px;
 			}
@@ -276,6 +286,17 @@ section[name = "flat-slider-top"]{
 			}
 			@media (min-width: 768px) {
 				div[name = "small-image-2"]{
+					margin-top: 3px;
+				}
+			}
+
+			@media (min-width: 1000px) {
+				div[name = "small-image-2"]{
+					margin-top: 5px;
+				}
+			}
+			@media (min-width: 1200px) {
+				div[name = "small-image-2"]{
 					margin-top: 10px;
 				}
 			}
@@ -285,32 +306,76 @@ section[name = "flat-slider-top"]{
 			left: 25px;
 			top: 10px;
 			width: 360px;
+			@media (max-width: 767px) {
+				display: none;
+			}
+			@media (min-width: 768px) and (max-width: 992px) {
+				width: 260px;
+				left: 25px;
+				top: 10px;
+			}
 			font-family: "Geometria Regular";
 			div[name = "n-days"]{
 
 				font-size: 48px;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 30px;
+				}
 			}
 			div[name = "text-days"]{
 				font-size: 18px;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 14px;
+				}
 			}
 			hr{
 				border-top: 3px solid #eee;
 				width: 80%;
+				@media (min-width: 768px) and (max-width: 992px) {
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
 			}
 			hr[name = "hr"]{
 				border-top: 1px solid #000;
+				@media (min-width: 768px) and (max-width: 992px) {
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
 			}
 			div[name = "price"]{
 				font-size: 28px;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 24px;
+				}
 			}
 			div[name = "text1"]{
 				
 			}
 			div[name = "text2"]{
 				font-size: 16px;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 12px;
+				}
 			}
 			div[name = "text3"]{
 				font-size: 16px;
+				@media (min-width: 768px) and (max-width: 992px) {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	div[name = "slider-xs"]{
+		div[name = "big-image"]{
+			div[name = "pult-image"]{
+				padding-top: 10px;
+				i{
+					color: @slider-pult-color;
+				}
+			}
+			div[name = "slider-info"]{
+				background-color: #fff;
 			}
 		}
 	}
