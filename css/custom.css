@@ -332,15 +332,15 @@ section[name="flat-slider-top"] p[name="sub-title"] {
 }
 section[name="flat-slider-top"] div[name="preview-slider"] {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #b8b8b8;
   border-radius: 200px;
-  width: 370px;
-  height: 370px;
+  width: 380px;
+  height: 380px;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
   position: absolute;
   top: 20px;
-  left: 385px;
+  left: 395px;
 }
 section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="block-image"] {
   margin-top: 5px;
@@ -370,4 +370,33 @@ section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slide
   section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
     margin-top: 10px;
   }
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] {
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  width: 360px;
+  font-family: "Geometria Regular";
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="n-days"] {
+  font-size: 48px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text-days"] {
+  font-size: 18px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr {
+  border-top: 3px solid #eee;
+  width: 80%;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] hr[name="hr"] {
+  border-top: 1px solid #000;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="price"] {
+  font-size: 28px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text2"] {
+  font-size: 16px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-info-slider"] div[name="text3"] {
+  font-size: 16px;
 }
