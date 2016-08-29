@@ -330,10 +330,24 @@ section[name="flat-slider-top"] p[name="sub-title"] {
   font-family: "Geometria Regular";
   font-size: 18px;
 }
-section[name="flat-slider-top"] div[name="previe-slider"] {
+section[name="flat-slider-top"] div[name="preview-slider"] {
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 150px;
-  width: 300px;
-  height: 300px;
+  border-radius: 200px;
+  width: 370px;
+  height: 370px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] {
+  position: absolute;
+  top: 70px;
+  left: 370px;
+}
+section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="big-image"] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (min-width: 768px) {
+  section[name="flat-slider-top"] div[name="preview-slider"] div[name="block-slider"] div[name="small-image-2"] {
+    margin-top: 40px;
+  }
 }
