@@ -511,3 +511,26 @@ section[name="flat-slider-top"] div[name="slider-xs"] div[name="big-image"] div[
 section[name="flat-slider-top"] div[name="block-icons"] {
   margin-top: 50px;
 }
+section[name="flat-slider-top"] div[name="block-icons"] div[name="title"] {
+  font-family: "Geometria Regular";
+  font-size: 24px;
+  color: #3e3e3e;
+  line-height: 1;
+  margin-top: 20px;
+}
+section[name="flat-slider-top"] div[name="block-icons"] div[name="description"] {
+  margin-top: 30px;
+}
+section[name="flat-slider-top"] div[name="block-icons"] div[name="description"] p {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  color: #010101;
+}
+section[name="flat-slider-top"] div[name="block-icons"] div[name="description"] p.underline {
+  font-size: 12px;
+}
+section[name="flat-slider-top"] div[name="block-icons"] div[name="description"] hr {
+  border-top: 1px solid #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
