@@ -534,3 +534,11 @@ section[name="flat-slider-top"] div[name="block-icons"] div[name="description"] 
   margin-top: 1px;
   margin-bottom: 1px;
 }
+section[name="idea-project"] {
+  margin-top: 26px;
+}
+@media (min-width: 1200px) {
+  section[name="idea-project"] div.container {
+    width: 1000px;
+  }
+}
